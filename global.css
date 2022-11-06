@@ -1,3 +1,7 @@
 button {
   border: none;
 }
+
+:root {
+  font-size: 14px;
+}
