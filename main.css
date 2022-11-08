@@ -1,0 +1,14 @@
+.left-aside-head {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.nav {
+  border-right: 1px solid #24292f;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: row;
+}
