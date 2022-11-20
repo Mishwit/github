@@ -1,3 +1,9 @@
+.aside-left {
+  padding: 0 32px;
+  max-width: 350px;
+  border-right: 1px solid #d0d7de;
+}
+
 .left-aside-head {
   margin-bottom: 4px;
   display: flex;
@@ -8,7 +14,7 @@
 }
 
 .nav {
-  border-right: 1px solid #24292f;
+
 }
 
 .start {
@@ -28,7 +34,7 @@
 
 .flex-column {
   margin-top: 32px;
-  padding: 0 32px;
+
 }
 
 .btn-primary {
@@ -38,25 +44,51 @@
 }
 
 .aside-top-text {
+
   font-size: 14px;
+  line-height: 21px;
 }
 
-.aside-left {
-  max-width: 350px;
-}
 
 .links {
   height: 16px;
   width: 16px;
 }
 
+.recent-activity{
+font-size: 14px;
+margin-top: 24px;
+}
+
+.activities{
+  padding: 16px;
+  margin: 8px 0 2px 0;
+  border: 1px dashed #d0d7de;
+  color: #57606a;
+  font-size: 12px;
+}
+
 .pages {
+  padding: 0;
   color: #24292f;
+  margin-top: 8px;
 }
 
 .pages:hover {
   text-decoration: underline;
   color: #24292f;
+}
+
+.btn-link{
+  padding: 0;
+  margin-top: 16px;
+  font-size: 12px;
+  color: #57606a;
+  text-decoration: none;
+}
+
+.btn-link:hover{
+ color: #0969da;
 }
 
 h1 {
@@ -66,6 +98,25 @@ h1 {
 .center {
   padding: 0 24px;
   margin-top: 16px;
+}
+
+.phrase{
+  margin-bottom: 8px;
+}
+
+.tag{
+
+}
+
+.welcome-text{
+  color: #57606a;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.writing{
+  display: flex;
+  justify-content: space-between;
 }
 
 .cards{
@@ -80,6 +131,7 @@ h1 {
 }
 
 .advice{
+  padding: 16px;
   display: flex;
   flex-direction: column;
  width: 50%;

@@ -102,11 +102,6 @@
               aria-expanded="false"
             >
               <img class="avatar" src="./icons/avtar.png" />
-              <!-- <span
-                class="position-absolute top-0 start-100 translate-middle p-2 bg-primary border border-light rounded-circle"
-              >
-                <span class="visually-hidden">New alerts</span>
-              </span> -->
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
               <li>
@@ -139,7 +134,7 @@
       <aside class="col aside-left">
         <ul class="nav flex-column">
           <div class="left-aside-head">
-            <h2 class="aside-top-text">Recent Repositories</h2>
+            <h2 class="aside-top-text">Top Repositories</h2>
             <button type="button" class="btn btn-sm btn-success">
               <img src="./icons/button-new.svg" /> New
             </button>
@@ -217,9 +212,9 @@
           <button type="button" class="btn btn-link">Show more</button>
         </div>
         <div>
-          <h2>Recent activity</h2>
+          <h2 class="recent-activity">Recent activity</h2>
           <div>
-            <p>
+            <p class="activities">
               When you take actions across GitHub, we’ll provide links to that
               activity here.
             </p>
@@ -229,19 +224,45 @@
 
       <div class="col center">
         <div>
-          <h1>The home for all developers — including you.</h1>
-          <p>
+          <h1 class="phrase">The home for all developers — including you.</h1>
+          <p class="welcome-text">
             Welcome to your personal dashboard, where you can find an
             introduction to how GitHub works, tools to help you build software,
             and help merging your first lines of code.
           </p>
         </div>
 
-        <div class="start">
-          <span>
-            <img src="./icons/tag.svg" />
-          </span>
-          <h5>Start writing code</h5>
+        <div class="writing">
+          <div class="start">
+            <span class="tag">
+              <img src="./icons/tag.svg" />
+            </span>
+            <h5>Start writing code</h5>
+          </div>
+
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img src="./icons/dots.svg" />
+              </a>
+              <div
+                class="dropdown-menu p-4 text-muted"
+                style="max-width: 200px"
+              >
+                <p>
+                  You're seeing this because you haven't used repositories,
+                  issues, and pull requests recently.
+                </p>
+                <p class="mb-0">Remove from dashboard</p>
+              </div>
+            </li>
+          </ul>
         </div>
 
         <div class="cards">
@@ -315,20 +336,24 @@
       </div>
 
       <aside class="col right">
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
-        </ul>
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="..." class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
       </aside>
     </main>
 
