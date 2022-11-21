@@ -1,4 +1,12 @@
+
+.main{
+  background-color: #f6f8fa;
+  height: 800px;
+}
+
+
 .aside-left {
+  background-color: #ffffff;
   padding: 0 32px;
   max-width: 350px;
   border-right: 1px solid #d0d7de;
@@ -21,6 +29,7 @@
   display: flex;
   flex-direction: row;
   height: 21px;
+  color: #57606a;
 }
 
 .aside-search {
@@ -105,7 +114,19 @@ h1 {
 }
 
 .tag{
+  background-color: #afb8c1;
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 32px;
+  width: 32px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
 
+.tag img{
+  height: 16px;
+  width: 16px;
 }
 
 .welcome-text{
@@ -117,6 +138,8 @@ h1 {
 .writing{
   display: flex;
   justify-content: space-between;
+  height: 32px;
+  align-items: center ;
 }
 
 .cards{
@@ -138,6 +161,26 @@ h1 {
  height: 50%;
  border: 1px solid #d0d7de;
 }
+
+.choose-type{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.public{
+
+}
+
+.private{
+
+}
+
+.create-button{
+
+
+}
+
 
 .advice-search{
   display: flex;
