@@ -136,16 +136,32 @@ h1 {
 }
 
 .writing{
+  margin-top: 32px;
   display: flex;
   justify-content: space-between;
   height: 32px;
   align-items: center ;
 }
 
-.cards{
+.cards-top{
   display: flex;
   width: 100%;
-  height: 100%;
+  height: 50%;
+}
+
+.cards-bottom{
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.info{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+ width: 50%;
+ height: 100%;
+ border: 1px solid #d0d7de;
 }
 
 .create-repository{
@@ -158,7 +174,7 @@ h1 {
   display: flex;
   flex-direction: column;
  width: 50%;
- height: 50%;
+ height: 100%;
  border: 1px solid #d0d7de;
 }
 
