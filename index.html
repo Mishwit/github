@@ -265,7 +265,126 @@
           </ul>
         </div>
 
-        <div class="cards-top">
+        <div class="block-top">
+          <div class="card">
+            <div class="card-body">
+              <div class="advice">
+                <h5>Start a new repository</h5>
+                <p>
+                  A repository contains all of your project's files, revision
+                  history, and collaborator discussion.
+                </p>
+                <div class="create-repository">
+                  <span>Mishwit /</span>
+                  <div class="advice-search">
+                    <div class="search-place">
+                      <form class="d-flex" role="search">
+                        <input
+                          class="form-control aside-search"
+                          type="search"
+                          placeholder="name your new repository..."
+                          aria-label="Search"
+                        />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="choose-type">
+                  <div class="form-check public">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      <img src="./icons/public.svg" />
+                      <span>Public</span>
+                      <p>Anyone on the internet can see this repository</p>
+                    </label>
+                  </div>
+                  <div class="form-check private">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="exampleRadios"
+                      id="exampleRadios1"
+                      value="option1"
+                      checked
+                    />
+                    <label class="form-check-label" for="exampleRadios1">
+                      <img src="./icons/public.svg" />
+                      <span>
+                        Private
+                        <p>
+                          You choose who can see and commit to this repository
+                        </p>
+                      </span>
+                    </label>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-success create-button"
+                  >
+                    Create a new repository
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <div class="advice">
+                <h5>Introduce yourself with a profile README</h5>
+                <p>
+                  Share information about yourself by creating a profile README,
+                  which appears at the top of your profile page.
+                </p>
+                <div class="profile-box">
+                  <div class="create-readme">
+                    <span>Mishwit/README.md</span>
+                    <button type="button" class="btn btn-sm btn-success">
+                      Create
+                    </button>
+                  </div>
+
+                  <div class="about-me">
+                    <div class="numbers">
+                      <div class="list">
+                        <span>1</span>
+                        <p>- 👋 Hi, I’m @Mishwit</p>
+                      </div>
+                      <div class="list">
+                        <span>2</span>
+                        <p>- 👀 I’m interested in ...</p>
+                      </div>
+                      <div class="list">
+                        <span>3</span>
+                        <p>- 🌱 I’m currently learning ...</p>
+                      </div>
+                      <div class="list">
+                        <span>4</span>
+                        <p>- 💞️ I’m looking to collaborate on ...</p>
+                      </div>
+                      <div class="list">
+                        <span>5</span>
+                        <p>- 📫 How to reach me ...</p>
+                      </div>
+                      <div class="list">
+                        <span>6</span>
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="cards-top">
           <div class="advice">
             <h5>Start a new repository</h5>
             <p>
@@ -372,7 +491,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="writing">
           <div class="start">
             <span class="tag">
@@ -381,21 +500,39 @@
             <h5>Use tools of the trade</h5>
           </div>
         </div>
-        <div class="cards-bottom">
-          <div class="info">
-            <h5>Simplify your development workflow with a GUI</h5>
-            <p>
+        <div class="cards-middle">
+          <div class="card">
+            <div class="card-body">
               Install GitHub Desktop to visualize, commit, and push changes
               without ever touching the command line.
-            </p>
+            </div>
           </div>
 
-          <div class="info">
-            <h5>Get AI-based coding suggestions</h5>
-            <p>
+          <div class="card">
+            <div class="card-body">
               Try GitHub Copilot free for 60 days, which suggests code and
               entire functions in real-time, right from your editor.
-            </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards-bottom">
+          <div class="card mb-3">
+            <img src="./icons/image-card.png" class="card-img-top" />
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <div class="card-body">
+              <h5 class="card-title">
+                Follow this exercise to try the GitHub flow
+              </h5>
+              <p class="card-text">
+                GitHub's “Hello World” tutorial teaches you essentials, where
+                you create your own repository and learn GitHub's pull request
+                workflow for creating and reviewing code.
+              </p>
+              <a href="#" class="btn btn-light">Try the GitHub flow</a>
+            </div>
           </div>
         </div>
       </div>
