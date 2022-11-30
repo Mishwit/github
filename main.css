@@ -149,10 +149,9 @@ h1 {
 
 }
 
-/* .card{
-  display: flex;
-
-} */
+.card{
+  border: 1px solid #d0d7de;
+}
 
 .cards-middle{
   display: flex;
@@ -183,13 +182,21 @@ h1 {
   flex-direction: row;
 }
 
-.advice{
+.card{
+ margin: 0 8px;
+ width: 100%;
+ height: 100%;
+}
+
+.card-body{
   padding: 16px;
+}
+
+.advice{
   display: flex;
   flex-direction: column;
  width: 100%;
  height: 100%;
- border: 1px solid #d0d7de;
 }
 
 .choose-type{
@@ -197,6 +204,7 @@ h1 {
   flex-direction: column;
 
 }
+
 
 .public{
 
@@ -210,6 +218,7 @@ h1 {
 
 
 }
+
 
 
 .advice-search{
