@@ -21,15 +21,18 @@
   align-content: center;
 }
 
-.nav {
-
-}
-
 .start {
   display: flex;
   flex-direction: row;
   height: 32px;
   color: #57606a;
+  align-items: center;
+  text-align: center;
+}
+
+.normal-text{
+  margin: 0;
+  font-weight: 400px;
 }
 
 .aside-search {
@@ -105,8 +108,8 @@ h1 {
 }
 
 .center {
-  padding: 0 24px;
-  margin-top: 16px;
+  padding: 0 60px 0 45px;
+  margin-top: 32px;
 }
 
 .phrase{
@@ -114,7 +117,7 @@ h1 {
 }
 
 .tag{
-  background-color: #afb8c1;
+  background-color: #d0d7de;
   border-radius: 50%;
   box-sizing: border-box;
   height: 32px;
@@ -122,6 +125,7 @@ h1 {
  display: flex;
  justify-content: center;
  align-items: center;
+ margin-right: 8px;
 }
 
 .tag img{
@@ -145,7 +149,7 @@ h1 {
 
 .block-top{
   display: flex;
-
+margin-top: 5px;
 
 }
 
@@ -248,7 +252,6 @@ h1 {
 
 h5{
   margin-bottom: 8px;
-  font-weight: 600;
   font-size: 14px;
 }
 
