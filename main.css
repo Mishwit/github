@@ -23,7 +23,6 @@
 
 .aside-button{
  padding:3px 12px;
- background-color: #2da44e;
  border-radius: 5px;
 }
 
@@ -70,14 +69,13 @@
 
 .flex-column {
   margin-top: 32px;
-
 }
 
-.btn-primary {
+.btn-success{
   background-color: #2da44e;
-  height: 28px;
   padding: 3px 12px;
 }
+
 
 .aside-top-text {
   display: flex;
@@ -90,7 +88,9 @@
 .links {
   height: 16px;
   width: 16px;
+  margin-right: 8px;
 }
+
 
 .recent-activity{
 font-size: 14px;
@@ -181,7 +181,7 @@ h1 {
 
 .card{
   border: 1px solid #d0d7de;
-  padding: 0 8px;
+  /* padding: 0 8px; */
   width: 100%;
   height: 100%;
 }
@@ -259,10 +259,11 @@ height: 28px;
 
 
 
-.advice-search{
+.row{
   display: flex;
   flex-direction: row;
 }
+
 
 .profile-box{
   display: flex;
@@ -340,3 +341,13 @@ h5{
 /* p{
   margin: 0;
 } */
+
+.gh-desktop{
+  height: 40px;
+  width: 40px;
+}
+
+.copilot{
+  height: 34px;
+  width: 40px;
+}
