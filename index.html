@@ -137,104 +137,106 @@
 
     <main class="main row">
       <aside class="col aside-left">
-        <ul class="nav flex-column">
-          <div class="left-aside-head">
-            <h2 class="aside-top-text">Top Repositories</h2>
-            <button type="button" class="btn btn-sm btn-success aside-button">
-              <img src="./icons/button-new.svg" /> New
-            </button>
-          </div>
+        <div class="inside-elements">
+          <ul class="nav flex-column">
+            <div class="left-aside-head">
+              <h2 class="aside-top-text">Top Repositories</h2>
+              <button type="button" class="btn btn-sm btn-success aside-button">
+                <img src="./icons/button-new.svg" /> New
+              </button>
+            </div>
 
-          <div class="search-place">
-            <form class="d-flex" role="search">
-              <input
-                class="form-control aside-search"
-                type="search"
-                placeholder="Find a repository..."
-                aria-label="Search"
-              />
-            </form>
-          </div>
+            <div class="search-place-aside">
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control aside-search"
+                  type="search"
+                  placeholder="Find a repository..."
+                  aria-label="Search"
+                />
+              </form>
+            </div>
 
-          <li class="nav-item">
-            <a
-              class="nav-link pages"
-              href="https://github.com/Mishwit/google-page"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/google-page</a
-            >
-          </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pages"
+                href="https://github.com/Mishwit/google-page"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/google-page</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a
-              class="nav-link pages"
-              href="https://github.com/Mishwit/yandex-page"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/yandex-page</a
-            >
-          </li>
+            <li class="nav-item">
+              <a
+                class="nav-link pages"
+                href="https://github.com/Mishwit/yandex-page"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/yandex-page</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link pages" href="https://github.com/Mishwit/github"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/github</a
-            >
-          </li>
+            <li class="nav-item">
+              <a class="nav-link pages" href="https://github.com/Mishwit/github"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/github</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link pages" href="https://github.com/Mishwit/Study"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/Study</a
-            >
-          </li>
+            <li class="nav-item">
+              <a class="nav-link pages" href="https://github.com/Mishwit/Study"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/Study</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link pages" href="https://github.com/Mishwit/pubb"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/pubb</a
-            >
-          </li>
+            <li class="nav-item">
+              <a class="nav-link pages" href="https://github.com/Mishwit/pubb"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/pubb</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a class="nav-link pages" href="https://github.com/Mishwit/123"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/123</a
-            >
-          </li>
+            <li class="nav-item">
+              <a class="nav-link pages" href="https://github.com/Mishwit/123"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/123</a
+              >
+            </li>
 
-          <li class="nav-item">
-            <a
-              class="nav-link pages"
-              href="https://github.com/Mishwit/every-morning"
-              ><img
-                class="avatar links"
-                src="./icons/avtar.png"
-              />Mishwit/every-morning</a
-            >
-          </li>
-        </ul>
-        <div>
-          <button type="button" class="btn btn-link">Show more</button>
-        </div>
-        <div>
-          <h2 class="recent-activity">Recent activity</h2>
+            <li class="nav-item">
+              <a
+                class="nav-link pages"
+                href="https://github.com/Mishwit/every-morning"
+                ><img
+                  class="avatar links"
+                  src="./icons/avtar.png"
+                />Mishwit/every-morning</a
+              >
+            </li>
+          </ul>
           <div>
-            <p class="activities">
-              When you take actions across GitHub, we’ll provide links to that
-              activity here.
-            </p>
+            <button type="button" class="btn btn-link">Show more</button>
+          </div>
+          <div>
+            <h2 class="recent-activity">Recent activity</h2>
+            <div>
+              <p class="activities">
+                When you take actions across GitHub, we’ll provide links to that
+                activity here.
+              </p>
+            </div>
           </div>
         </div>
       </aside>
@@ -296,20 +298,14 @@
                 </p>
 
                 <div class="create-repository">
-                  <span class="username">Mishwit /</span>
+                  <span class="username">Mishwit/</span>
 
-                  <div class="row">
-                    <div class="search-place">
-                      <form class="d-flex" role="search">
-                        <input
-                          class="form-control card-aside-search"
-                          type="search"
-                          placeholder="name your new repository..."
-                          aria-label="Search"
-                        />
-                      </form>
-                    </div>
-                  </div>
+                  <input
+                    class="form-control card-search"
+                    type="search"
+                    placeholder="name your new repository..."
+                    aria-label="Search"
+                  />
                 </div>
                 <div class="choose-type">
                   <div class="form-check public">
@@ -324,7 +320,7 @@
 
                     <label class="form-check-label" for="exampleRadios1">
                       <img src="./icons/public.svg" />
-                      <span>Public</span>
+                      <span class="text-bold">Public </span>
                       <p>Anyone on the internet can see this repository</p>
                     </label>
                   </div>
@@ -341,12 +337,10 @@
 
                     <label class="form-check-label" for="exampleRadios1">
                       <img src="./icons/lock.svg" />
-                      <span>
-                        Private
-                        <p>
-                          You choose who can see and commit to this repository
-                        </p>
-                      </span>
+                      <span class="text-bold"> Private </span>
+                      <p>
+                        You choose who can see and commit to this repository
+                      </p>
                     </label>
                   </div>
                   <button
@@ -422,7 +416,7 @@
         <div class="writing">
           <div class="start">
             <span class="tag">
-              <img src="./icons/tag.svg" />
+              <img src="./icons/tool.svg" />
             </span>
 
             <h5>Use tools of the trade</h5>
@@ -453,7 +447,7 @@
             </li>
           </ul>
         </div>
-        <div class="cards-middle">
+        <div class="block-middle">
           <div class="card">
             <div class="card-body">
               <h5>Simplify your development workflow with a GUI</h5>
@@ -531,10 +525,10 @@
           </ul>
         </div>
 
-        <div class="cards-bottom">
-          <div class="card" style="width: 18rem">
+        <div class="block-bottom">
+          <div class="card get-started" style="width: 18rem">
             <!-- <div class="card-body"> -->
-            <div>
+            <div class="get-started">
               <a
                 href="https://www.youtube.com/watch?v=pBy1zgt0XPc&ab_channel=GitHub"
               >
@@ -542,15 +536,16 @@
                 <div>
                   <span>
                     <img src="./icons/play.svg" />
-                  </span></div
-              ></a>
+                  </span>
+                </div>
+              </a>
             </div>
             <span>What is GitHub?</span>
           </div>
 
-          <div class="card">
+          <div class="card get-started">
             <div class="card-body">
-              <div>
+              <div class="">
                 <img src="./icons/path-branch.svg" />
                 <h5>Follow this exercise to try the GitHub flow</h5>
               </div>
@@ -572,24 +567,24 @@
       </div>
 
       <aside class="col right">
-        <div class="card" style="width: 18rem">
-          <img src="" class="card-img-top" />
-          <!-- <div class="card-body">
+        <!-- <div class="card" style="width: 18rem">
+          <img src="" class="card-img-top" /> -->
+        <!-- <div class="card-body">
             <p class="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
           </div> -->
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="./icons/bottom image card.png" class="card-img-top" />
-          <!-- <div class="card-body">
+        <!-- </div> -->
+        <!-- <div class="card" style="width: 18rem">
+          <img src="./icons/bottom image card.png" class="card-img-top" /> -->
+        <!-- <div class="card-body">
             <p class="card-text">
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </p>
           </div> -->
-        </div>
+        <!-- </div> -->
       </aside>
     </main>
 
