@@ -249,6 +249,7 @@ width: 50%;
 
 .card-body{
   padding: 16px;
+
 }
 
 .advice{
@@ -302,6 +303,8 @@ height: 28px;
   display: flex;
   flex-direction: row;
   margin: 0;
+  padding: 0;
+  flex-wrap: nowrap;
 }
 
 .profile-box{
@@ -379,9 +382,12 @@ h5{
 .gh-desktop{
   height: 40px;
   width: 40px;
+  padding: 0;
 }
 
 .copilot{
   height: 34px;
   width: 40px;
+  padding: 0;
+  margin: 0;
 }
