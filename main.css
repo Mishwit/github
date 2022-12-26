@@ -49,6 +49,8 @@
   font-size: 14px;
 }
 
+
+
 .normal-text{
   font-size: 14px;
   color: #57606a;
@@ -423,4 +425,30 @@ h5{
   padding: 1px 4px;
   font-weight: 500;
   font-size: 12px;
+}
+
+.feed_content{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0;
+}
+
+.feed-avatar{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.feed-links{
+  color: #24292f;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.red-dot{
+  height: 12px;
+  width: 12px;
+  background-color: #ff3e00;
+  border-radius: 50%;
 }
