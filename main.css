@@ -407,8 +407,6 @@ h5{
 .tabs{
   display: flex;
   flex: 1;
-  background-color: antiquewhite;
-  border-bottom: solid 1px #afb8c1;
   box-sizing: border-box;
 
 }
@@ -434,6 +432,7 @@ h5{
   display: flex;
   flex-direction: row;
   padding: 16px 0;
+  border-top: 1px solid #afb8c1;
 }
 
 .feed-avatar{
@@ -492,6 +491,15 @@ justify-content: space-between;
   margin-top: 8px;
 }
 
+.row-block{
+display: flex;
+}
+
+.feed-photo{
+display: flex;
+flex-direction: row;
+}
+
 .feed-links-big{
   color: #24292f;
   text-decoration: none;
@@ -499,12 +507,54 @@ justify-content: space-between;
   font-size: 16px;
 }
 
+.feed-links-normal{
+  color: #57606a;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.feed-links-small{
+  font-size: 12px;
+  text-decoration: none;
+  color: #57606a;
+  }
+
+
+.static-text{
+  margin-top: 4px;
+}
+
 .post-info{
-  margin-top: 18px;
+  margin-top: 8px;
   margin-bottom: 0;
   display: flex;
   align-content: end;
 }
+
 .feed-text{
   width: 100%;
+}
+
+.follow-button{
+  background-color: #f3f4f6;
+ border: 1px solid rgb(27, 31, 36, 0.15);
+ padding: 3px 12px;
+ font-size: 12px;
+ border-radius: 6px;
+ font-weight: 500;
+}
+
+.userthree{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.tips{
+  border-top: 1px solid #afb8c1;
+  margin: 24px;
+}
+
+.tips-links{
+  text-decoration: none;
 }

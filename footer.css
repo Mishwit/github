@@ -1,4 +1,40 @@
 .footer{
-  height: 0;
-  width: 0;
+display: flex;
+}
+
+.footer-wrapper{
+  display: flex;
+  margin: 32px 0;
+}
+
+.footer-left{
+  margin-right: 32px;
+}
+
+.footer-right{
+  display: flex;
+}
+
+.homepage{
+  display: flex;
+}
+
+.footer-logo{
+  margin-right: 8px;
+}
+
+.copyright{
+  font-size: 12px;
+  text-decoration: none;
+  color: #57606a;
+  text-decoration-line: none;
+}
+
+.sitemap{
+  padding-left: 24px;
+  display: block;
+}
+
+li{
+  list-style-type: none;
 }
